@@ -9,10 +9,12 @@ npm test         # filter, chart-data and modal tests
 npm run build
 ```
 
-Open the app with `?simulate=error` to see the error state.
 
 ## Structure
 - `src/data` – mock data and a simulated async fetch
 - `src/utils` – filtering, aggregation, formatting (pure functions)
 - `src/hooks/useProducts.js` – loading / ready / error state
 - `src/components` – Sidebar, TopBar, KpiStrip, Charts, Filters, ProductTable, ProductModal, States
+
+
+Live Demo: https://lakson-banking-dashboard-nine.vercel.app
